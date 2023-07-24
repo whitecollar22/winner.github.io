@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winner site</title>
+</head>
+<body>
+   <div class="btncontainer">
+    <button class="btn">click mi to chacke your win prise</button>
+   </div> 
+   <script>
+    const audioelement= new Audio('tatya.mp3')
+  let btn=document.querySelector(".btn");
+   btn.addEventListener("click" , ()=>{
+    audioelement.play();
+    audioelement.loop = true;
+    audioelement.volume = 1;
+
+   })
+   </script>
+</body>
+</html>
